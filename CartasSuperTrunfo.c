@@ -8,7 +8,7 @@ int main() {
     unsigned long int populacao1;
     int pontos_turisticos1;
     float pib1; 
-    int area1;
+    float area1;
     char codigo1[10]; 
     float densidade_populacional1;
     float PIB_percapita1;
@@ -34,7 +34,7 @@ int main() {
     scanf("%f", &pib1);
     
     printf("Digite a área: ");
-    scanf("%d", &area1);
+    scanf("%f", &area1);
     
 
     // CARTA 2
@@ -43,7 +43,7 @@ int main() {
     unsigned long int populacao2;
     int pontos_turisticos2;
     float pib2; 
-    int area2;
+    float area2;
     char codigo2[10]; 
     float densidade_populacional2;
     float PIB_percapita2;
@@ -70,7 +70,7 @@ int main() {
     scanf("%f", &pib2);
     
     printf("Digite a área: ");
-    scanf("%d", &area2);
+    scanf("%f", &area2);
 
     // CALCULOS
     densidade_populacional1 = (float) populacao1 / area1;
@@ -88,7 +88,7 @@ int main() {
     printf("População: %lu\n", populacao1);
     printf("Pontos Turísticos: %d\n", pontos_turisticos1);
     printf("PIB: R$ %.2f\n", pib1);
-    printf("Área: %d km²\n", area1);
+    printf("Área: %f km²\n", area1);
     printf("Densidade Populacional: %.2f\n", densidade_populacional1);
     printf("PIB per capita: %.2f\n", PIB_percapita1);
     printf("O superpoder é: %f \n", superpoder1);
@@ -100,7 +100,7 @@ int main() {
     printf("População: %lu\n", populacao2);
     printf("Pontos Turísticos: %d\n", pontos_turisticos2);
     printf("PIB: R$ %.2f \n", pib2);
-    printf("Área: %d km²\n", area2);
+    printf("Área: %f km²\n", area2);
     printf("Densidade Populacional: %.2f\n", densidade_populacional2);
     printf("PIB per capita: %.2f\n", PIB_percapita2);
     printf("O superpoder é: %f \n", superpoder2);
